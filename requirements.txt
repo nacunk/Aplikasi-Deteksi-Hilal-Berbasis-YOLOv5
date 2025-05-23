@@ -1,5 +1,6 @@
 streamlit
 torch
-pandas
 opencv-python
+pandas
 Pillow
+imageio-ffmpeg
