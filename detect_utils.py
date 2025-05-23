@@ -2,6 +2,13 @@ import torch
 import pandas as pd
 from pathlib import Path
 import os
+import sys
+
+sys.path.append('yolov5')  # tambahkan path YOLOv5
+from models.common import DetectMultiBackend
+from utils.datasets import LoadImages
+from utils.general import non_max_suppression, scale_coords
+from utils.torch_utils import select_device
 
 def get_latest_run_folder(base="runs/detect"):
     folders = list(Path(base).glob("exp*"))

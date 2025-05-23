@@ -1,5 +1,9 @@
 streamlit
 torch
+opencv-python-headless
 pandas
-opencv-python
 Pillow
+PyYAML
+matplotlib
+numpy
+imageio-ffmpeg
