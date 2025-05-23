@@ -1,6 +1,6 @@
 torch
 pandas
-opencv-python
+opencv-python-headless
 streamlit
 Pillow
 imageio-ffmpeg
