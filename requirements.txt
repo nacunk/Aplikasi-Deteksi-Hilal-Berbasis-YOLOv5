@@ -1,6 +1,10 @@
 torch
+torchvision
 pandas
-opencv-python-headless
+opencv-python
 streamlit
-Pillow
+matplotlib
+numpy
+pyyaml
+pillow
 imageio-ffmpeg
