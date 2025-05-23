@@ -8,7 +8,7 @@ import shutil
 import sys
 
 # Tambahkan path ke folder YOLOv5 lokal
-sys.path.append('./yolov5')
+sys.path.append(str(Path(__file__).resolve().parent / "yolov5"))
 
 from models.common import DetectMultiBackend
 from utils.datasets import LoadImages
